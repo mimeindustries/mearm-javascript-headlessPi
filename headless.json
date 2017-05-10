@@ -2,5 +2,6 @@
   "name": "MeArm Javascript",
   "path": "mearm-javascript",
   "type": "static",
-  "category": "app"
+  "category": "app",
+  "description": "Control the MeArm Pi with Javascript"
 }
