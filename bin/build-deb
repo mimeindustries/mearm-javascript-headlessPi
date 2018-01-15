@@ -1,4 +1,4 @@
 #!/bin/bash
 
-export VERSION=$(node -p "require('./package.json').version")
+export VERSION=$(node -p "require('./headless.json').version")
 dpkg-buildpackage -us -uc -b
