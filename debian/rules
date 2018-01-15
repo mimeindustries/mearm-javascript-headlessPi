@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 DISTRIBUTION = $(shell lsb_release -sr)
-VERSION = 0.0.6
+#VERSION= <passed in by VERSION environment variable>
 PACKAGEVERSION=${VERSION}
 APPNAME=headlesspi-mearm-javascript
 INSTALLDIR = debian/${APPNAME}/opt/headlesspi/apps/${APPNAME}
