@@ -4,4 +4,4 @@ Maintainer: Ben Pirt <ben.pirt@mime.co.uk>
 Package: headlesspi-mearm-javascript
 Architecture: armhf
 Description: A headlesspi app to control your MeArm Pi with Javascript in your browser
-Depends: headlesspi (>=0.1.2), mearm-js (>=0.0.7)
+Depends: headlesspi (>=0.1.2), mearm-control (>=0.0.7)
